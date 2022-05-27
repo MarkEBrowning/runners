@@ -32,7 +32,7 @@ chmod +x /usr/local/bin/extract
 chmod +x /usr/local/bin/pextract
 
 cp .netrc /root/.netrc
-chmod 600 /usr/src/app/.netrc
+chmod 600 .netrc
 
 chmod +x aria.sh
 
