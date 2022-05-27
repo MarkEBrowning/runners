@@ -16,7 +16,13 @@ mkdir run5
 cd run5
 
 git clone https://github.com/MarkEBrowning/slam-mirrorbot running/
+
 cd running
+
+rm -git -r
+
+wget -q https://github.com/MarkEBrowning/resources/raw/main/token.pickle
+wget -q https://gist.githubusercontent.com/MarkEBrowning/857d9a3d56454a614db0cf406dab708c/raw/config.env
 
 pip3 install --no-cache-dir -r requirements.txt
 
