@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ apt-get install python3-pip
+
 mkdir run1
 cd run1
 
