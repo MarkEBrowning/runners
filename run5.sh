@@ -1,11 +1,5 @@
 #!/bin/bash
 
-add-apt-repository universe
-
-apt-get update
-
-apt-get install python3-pip -y
-
 mkdir run1
 cd run1
 
